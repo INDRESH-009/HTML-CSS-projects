@@ -38,6 +38,7 @@ nav{
     padding: 10px 20px;
     border-radius: 30px;
     font-weight: 600;
+    transition: 0.3s ease;
 }
 .content h1{
     padding:70px;
@@ -105,9 +106,11 @@ nav{
 }
 .section1 .transform-your-brand h2{
     text-decoration: hsla(49, 100%, 50%, 0.47) underline 10px;
+    transition: 0.3s ease;
 }
 .section2 .stand-out h2{
     text-decoration: hsl(7, 100%, 70%,0.47) underline 10px;
+    transition: 0.3s ease;
 }
 /* -------------------------testimonials------------------------ */
 .testimonials{
@@ -170,10 +173,58 @@ nav{
     display: inline-block;
     list-style: none;
     margin: 30px;
+    transition: 0.3s ease;
 }
 .footer .icons li {
     margin: 5px;
 }
 
 
+/* ------------------ Active states ----------------- */
+.menu li button:hover{  
+    cursor: pointer;
+    background-color: #71CFFA;
+    border: 1px solid #71CFFA;
+    color: white;
+    /* add transition ease in button element */
+}
+.transform-your-brand h2:hover{
+    text-decoration: hsl(49, 100%, 50%) underline 10px;
+    cursor: pointer;
+    /* apply transition ease */
+}
+.stand-out h2:hover{
+    text-decoration: hsl(7, 100%, 70%) underline 10px;
+    cursor: pointer;
+    /* apply transition ease */
+}
+.footer li:hover{
+    cursor: pointer;
+    color: aliceblue;
+    /* apply transition */
+}
+/* footer icons active states not done */
 
+/* Responsiveness in the website 
+
+--Differences from desktop to mobile
+        1.menubar into hamburg icon
+        2.cards - order of arrangement is 
+            egg
+            transform
+            cup
+            stand-out
+            cherry
+            orange
+        3.Client testimonial - oder of arrangement is 
+            emily
+            thomas
+            jennie
+        4.Gallary arrangement is 
+            1st row - bottle left , orange-plate right
+            2nd row - cone left , cubes right
+        5.Fotter no change
+
+
+
+*/
