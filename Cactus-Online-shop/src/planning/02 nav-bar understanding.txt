@@ -1,0 +1,34 @@
+The nav bar is one of the dynamic portions in the website 
+
+Items in the nav bar 
+    1.cactus icon from remixicons as a logo
+    2.name cactus
+    3.menu items - home , news , shop , care , Contact
+    4.Action icons - user icon , cart icon
+    5.hamburg menu icon
+    6.close icon
+
+Items in large screen 
+    1.cactus icon
+    2. cactus logo
+    3.menu items - home,news,shop,care,contact
+    4.user icon
+    5.cart icon
+
+Items in small screen
+    1.cactus icon
+    2.cactus logo
+    3.user icon
+    4.cart icon
+    5.hamburg menu icon
+    6.close icon after clicking the hamburg icon
+
+Description of the functioning of the nav bar 
+    the nav bar occupies the complete width with some padding on left and right.
+    on hover the menu items should transition from white to green
+    when we scroll to each section the menu item of that section should be highlighted 
+    when the screen size reduces the menu items should disappear and a hamburg menu should appear.
+
+    The hamburg menu must be dynamic . On clicking on it a overlay apperas from the right which contains all the menu items and a close icon on the top right. On clicking the close icon the overlay gets converted back to a hamburg icon.
+
+    Another feature is when we click on any of the menu-items in the overlay should close automatically and that section of the page should appear. 

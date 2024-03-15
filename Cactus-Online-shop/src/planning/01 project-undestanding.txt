@@ -1,0 +1,29 @@
+PROBLEM STATEMENT 
+This project is about developing the frontend of a website for a plant based e-commerce store that sells ornamental plants for home
+The website should be completely responsive
+
+PARTS OF THE WEBSITE
+The website can be overall divided into 
+    1.navigation bar
+    2.Home page
+    3.News 
+    4.Shop
+    5.Care
+    6.Contact
+    7.Footer
+
+BASIC SETUP
+This is about how we are going to approach this problem in a systematic way and setup our files 
+
+From analusoing the design of the webpage we can get the following information 
+
+    1.fonts used - montser google font 
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    2.icons from cdnjs website -remixicons library 
+                    import this into html and use the required icon by copying its link from the remixicons wesite
+                    https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+
+    3.use the favicon from the assets in img folder 
+
+    4.
